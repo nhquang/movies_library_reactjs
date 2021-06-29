@@ -2,7 +2,7 @@
 
 const Header = ({title}) => {
     return (
-        <div style={{width: "50%", margin: "auto", textAlign: "center"}}>
+        <div className="header">
             <h1>{title}</h1>
         </div>
     )

@@ -9,7 +9,13 @@ body {
 	background-attachment:fixed;
 	position: relative;
 }
-
+.header {
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+}
 .container {
   max-width: 100%;
   /* margin: 30px auto; */
@@ -30,6 +36,7 @@ body {
 .topnav a {
   float: right;
   display: block;
+  border-radius: 5px;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -45,5 +52,45 @@ body {
 .topnav .icon {
   display: none;
 }
+.img{
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+.featured {
+  width: 75%;
+  white-space: nowrap;
+  margin:auto;
+  overflow: auto;
+}
+.item{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 300px;
+  width: 200px;
+  cursor: pointer;
+}
+.item:hover{
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.863);
+}
+::-webkit-scrollbar {
+  height: 5px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 
