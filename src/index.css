@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import "react-slideshow-image/dist/styles.css";
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-repeat: no-repeat;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	position: relative;
+}
+
+.container {
+  max-width: 100%;
+  /* margin: 30px auto; */
+  margin: auto;
+  overflow: auto;
+  /* min-height: 5000px; */
+  border: 1px ;
+  /* padding: 0px 30px 30px 30px; */
+  /* border-radius: 15px; */
+  background-color: rgb(225, 247, 255);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
