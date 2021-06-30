@@ -3,28 +3,23 @@ import { useState, useEffect } from 'react'
 import Item from './Item'
 import Header from './Header'
 
-
-const MoviesPage = () => {
-    
-    const [movies, setMovies] = useState([]);
-
+const TVShowsPage = () => {
+    const [tvshows, settvshows] = useState([]);
     useEffect(() => {
-        const fetchMovies = async () =>{
-            const data = await fetch("http://localhost:3000/movies");
+        const fetchTVShows = async () =>{
+            const data = await fetch("http://localhost:3000/tvShows");
             const parsed = await data.json();
-            setMovies(prev => parsed);
+            settvshows(prev => parsed);
             
         }
-        fetchMovies();
-    }, []);
-
-    
+        fetchTVShows();
+    }, [])
     return (
         <>
-            <Header title={"All Movies"} />
+            <Header title={"All TV Shows"} />
             
             <div className="listing">
-                {movies.map((item)=>(
+                {tvshows.map((item)=>(
                     <Item key={item.url} item={item} />
                 ))}
             </div>
@@ -32,4 +27,4 @@ const MoviesPage = () => {
     )
 }
 
-export default MoviesPage
+export default TVShowsPage

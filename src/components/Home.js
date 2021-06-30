@@ -3,7 +3,6 @@ import Slideshow from "./Slideshow"
 import {useState, useEffect} from "react";
 import FeaturedItems from "./FeaturedItems";
 
-
 const Home = () => {
     const [slideShowItems, setslideShowItems] = useState([]);
     const [movies, setmovies] = useState([]);

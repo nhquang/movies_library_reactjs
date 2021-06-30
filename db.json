@@ -133,6 +133,30 @@
             "length": "1h 40m",
             "trailer": "https://youtu.be/HrlQBsd8LsE",
             "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/6QwYCoxOAMW0AEpzoUikbwiGZ7x.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+            "name": "Avengers: Endgame",
+            "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+            "genres": [
+                "Fantasy", "Action", "Adventure"
+            ],
+            "releaseDate": "04/26/2019",
+            "length": "3h",
+            "trailer": "https://youtu.be/TcMBFSGVi1c",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+            "name": "Avengers: Infinity War",
+            "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+            "genres": [
+                "Fantasy", "Action", "Adventure"
+            ],
+            "releaseDate": "04/27/2018",
+            "length": "2h 29m",
+            "trailer": "https://youtu.be/6ZfuNTqbHE8",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/lmZFxXgJE3vgrciwuDib0N8CfQo.jpg"
         }
     ],
     "tvShows": [
@@ -252,6 +276,32 @@
             "seasons": "7",
             "trailer": "https://youtu.be/Yj0l7iGKh8g",
             "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/z59kJfcElR9eHO9rJbWp4qWMuee.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg",
+            "name": "Loki",
+            "overview": "After stealing the Tesseract during the events of “Avengers: Endgame,” an alternate version of Loki is brought to the mysterious Time Variance Authority, a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a “time variant”or help fix the timeline and stop a greater threat.",
+            "genres": [
+                "Drama", "Science Fiction", "Fantasy"
+            ],
+            "releaseDate": "06/09/2021",
+            "episodes": "2",
+            "seasons": "1",
+            "trailer": "https://youtu.be/nW948Va-l10",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/wr7nrzDrpGCEgYnw15jyAB59PtZ.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qTZIgXrBKURBK1KrsT7fe3qwtl9.jpg",
+            "name": "Legacies",
+            "overview": "In a place where young witches, vampires, and werewolves are nurtured to be their best selves in spite of their worst impulses, Klaus Mikaelson’s daughter, 17-year-old Hope Mikaelson, Alaric Saltzman’s twins, Lizzie and Josie Saltzman, among others, come of age into heroes and villains at The Salvatore School for the Young and Gifted.",
+            "genres": [
+                "Drama", "Science Fiction", "Fantasy"
+            ],
+            "releaseDate": "10/25/2018",
+            "episodes": "47",
+            "seasons": "4",
+            "trailer": "https://youtu.be/xHHM5VTATJo",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/fRYwdeNjMqC30EhofPx5PlDpdun.jpg"
         }
     ]
   }
