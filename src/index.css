@@ -2,12 +2,14 @@
 @import "react-slideshow-image/dist/styles.css";
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Poppins', sans-serif;
   background-repeat: no-repeat;
 	background-position:center;
 	background-size:cover;
 	background-attachment:fixed;
 	position: relative;
+  background-color: rgb(225, 247, 255);
 }
 .header {
   margin-bottom: 40px;
@@ -17,15 +19,16 @@ body {
   width: 50%;
 }
 .container {
-  max-width: 100%;
+  /* max-width: 100%; */
   /* margin: 30px auto; */
   margin: auto;
   overflow: auto;
   /* min-height: 5000px; */
   border: 1px ;
+  margin-bottom: 100px;
   /* padding: 0px 30px 30px 30px; */
   /* border-radius: 15px; */
-  background-color: rgb(225, 247, 255);
+  
 }
 
 .topnav {
@@ -75,7 +78,8 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.863);
 }
 ::-webkit-scrollbar {
-  height: 5px;
+  height: 8px;
+  width: 8px;
 }
 
 /* Track */
@@ -93,4 +97,19 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
-
+.listing{
+  margin-top: 50px;
+  width: 75%;
+  margin:auto;
+}
+.footer{
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding-top: 20px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}

@@ -1,0 +1,257 @@
+{
+    "banners" : [
+        {
+            "url" : "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/uozb2VeD87YmhoUP1RrGWfzuCrr.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/6QwYCoxOAMW0AEpzoUikbwiGZ7x.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/qZtAf4Z1lazGQoYVXiHOrvLr5lI.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/b92npz1sZwvmjUfVIrWXehrk3pc.jpg"
+        }
+    ],
+    "movies": [
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/h4VB6m0RwcicVEZvzftYZyKXs6K.jpg",
+            "name": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+            "overview": "Harley Quinn joins forces with a singer, an assassin and a police detective to help a young girl who had a hit placed on her after she stole a rare diamond from a crime lord.",
+            "genres": [
+                "Action", "Crime"
+            ],
+            "releaseDate": "02/07/2020",
+            "length": "1h 49m",
+            "trailer": "https://youtu.be/kGM4uYZzfu0",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/uozb2VeD87YmhoUP1RrGWfzuCrr.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mE2WdHdIwPdnOpfrswpvm6ZyKJu.jpg",
+            "name": "After We Leave",
+            "overview": "A sci-fi drama about a man struggling to find his wife, who he abandoned six years ago, before their visa to emmigrate to an off-world colony expires.",
+            "genres": [
+                "Science Fiction"
+            ],
+            "releaseDate": "02/25/2020",
+            "length": "1h 22m",
+            "trailer": "https://youtu.be/v3mP4kgolXw",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/mjsifKZI5gFXFp3v8RQTMAZdefP.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qzJlWub9HCVT8NMYDm2qB6xukXH.jpg",
+            "name": "Containment",
+            "overview": "Neighbors in a block wake one morning to find they have been sealed inside their apartments. Can they work together to find out why? Or will they destroy each other in their fight to escape?",
+            "genres": [
+                "Thriller", "Horror", "Science Fiction"
+            ],
+            "releaseDate": "08/01/2015",
+            "length": "1h 17m",
+            "trailer": "https://youtu.be/P_ez3uBJeyg",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/xVV8JrQKuHVjBS4CfwIMNktf70G.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uZkNbB8isWXHMDNoIbqXvmslBMC.jpg",
+            "name": "Awake",
+            "overview": "After a sudden global event wipes out all electronics and takes away humankind’s ability to sleep, chaos quickly begins to consume the world. Only Jill, an ex-soldier with a troubled past, may hold the key to a cure in the form of her own daughter. The question is, can Jill safely deliver her daughter and save the world before she herself loses her mind.",
+            "genres": [
+                "Action", "Adventure", "Thriller"
+            ],
+            "releaseDate": "06/09/2021",
+            "length": "1h 36m",
+            "trailer": "https://youtu.be/2fuowcxdrYc",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/3RMbkXS4ocMmoJyAD3ZsWbm32Kx.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg",
+            "name": "Godzilla vs Kong",
+            "overview": "In a time when monsters walk the Earth, humanity’s fight for its future sets Godzilla and Kong on a collision course that will see the two most powerful forces of nature on the planet collide in a spectacular battle for the ages.",
+            "genres": [
+                "Fantasy", "Action", "Adventure"
+            ],
+            "releaseDate": "03/31/2021",
+            "length": "1h 53m",
+            "trailer": "https://youtu.be/odM92ap8_c0",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/inJjDhCjfhh3RtrJWBmmDqeuSYC.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/Jabww5OzSZrTyovwSYQ5UAzSyQ.jpg",
+            "name": "Fatherhood (2021)",
+            "overview": "A widowed new dad copes with doubts, fears, heartache and dirty diapers as he sets out to raise his daughter on his own. Inspired by a true story.",
+            "genres": [
+                "Drama", "Comedy"
+            ],
+            "releaseDate": "06/18/2021",
+            "length": "1h 49m",
+            "trailer": "https://youtu.be/T3mwUEoZdrI",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/miOnymJ0dN2psWBB8Vleo3fUyrc.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qRyy2UmjC5ur9bDi3kpNNRCc5nc.jpg",
+            "name": "Fast & Furious Presents: Hobbs & Shaw",
+            "overview": "Ever since US Diplomatic Security Service Agent Hobbs and lawless outcast Shaw first faced off, they just have traded smack talk and body blows. But when cyber-genetically enhanced anarchist Brixton's ruthless actions threaten the future of humanity, they join forces to defeat him.",
+            "genres": [
+                "Action"
+            ],
+            "releaseDate": "08/02/2019",
+            "length": "2h 17m",
+            "trailer": "https://youtu.be/HZ7PAyCDwEg",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/qAhedRxRYWZAgZ8O8pHIl6QHdD7.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vtxuPWkdllLNLVyGjKYa267ntuH.jpg",
+            "name": "The Hangover Part III",
+            "overview": "This time, there's no wedding. No bachelor party. What could go wrong, right? But when the Wolfpack hits the road, all bets are off.",
+            "genres": [
+                "Comedy"
+            ],
+            "releaseDate": "05/23/2013",
+            "length": "1h 40m",
+            "trailer": "https://youtu.be/96TelFMZwHc",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/h2uzBumBlgIqVsQmbeNziUnRINf.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qF2LJ0jwWrtXSuT4AFD5OS2IqaT.jpg",
+            "name": "We're the Millers",
+            "overview": "A veteran pot dealer creates a fake family as part of his plan to move a huge shipment of weed into the U.S. from Mexico.",
+            "genres": [
+                "Comedy", "Crime"
+            ],
+            "releaseDate": "08/07/2013",
+            "length": "1h 50m",
+            "trailer": "https://youtu.be/0Vsy5KzsieQ",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/soxvAxlPTp3ATvvza4jSwzFUUEV.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/i86hMi5iEF3WnYLCaGHdT5FPdYg.jpg",
+            "name": "Leap Year",
+            "overview": "When yet another anniversary passes without a marriage proposal from her boyfriend, Anna decides to take action. Aware of a Celtic tradition that allows women to pop the question on Feb. 29, she plans to follow her lover to Dublin and ask him to marry her. Fate has other plans, however, and Anna winds up on the other side of the Emerald Isle with handsome, but surly, Declan -- an Irishman who may just lead Anna down the road to true love.",
+            "genres": [
+                "Comedy", "Romance"
+            ],
+            "releaseDate": "01/08/2010",
+            "length": "1h 40m",
+            "trailer": "https://youtu.be/HrlQBsd8LsE",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/6QwYCoxOAMW0AEpzoUikbwiGZ7x.jpg"
+        }
+    ],
+    "tvShows": [
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zLudbPueg8CxGhMS2tyDh3p0TdK.jpg",
+            "name": "The Simpsons",
+            "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
+            "genres": [
+                "Comedy", "Family", "Drama"
+            ],
+            "releaseDate": "12/17/1989",
+            "episodes": "706",
+            "seasons": "32",
+            "trailer": "https://youtu.be/HRV6tMR-SSs",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/hpU2cHC9tk90hswCFEpf5AtbqoL.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wRbjVBdDo5qHAEOVYoMWpM58FSA.jpg",
+            "name": "Riverdale",
+            "overview": "Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale’s wholesome facade.",
+            "genres": [
+                "Mystery", "Crime", "Drama"
+            ],
+            "releaseDate": "01/26/2017",
+            "episodes": "86",
+            "seasons": "5",
+            "trailer": "https://youtu.be/HxtLlByaYTc",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/qZtAf4Z1lazGQoYVXiHOrvLr5lI.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rqeYMLryjcawh2JeRpCVUDXYM5b.jpg",
+            "name": "The Walking Dead",
+            "overview": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
+            "genres": [
+                "Action", "Adventure", "Drama", "Fantasy", "Science Fiction"
+            ],
+            "releaseDate": "10/31/2010",
+            "episodes": "86",
+            "seasons": "5",
+            "trailer": "https://youtu.be/HxtLlByaYTc",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/qZtAf4Z1lazGQoYVXiHOrvLr5lI.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/f496cm9enuEsZkSPzCwnTESEK5s.jpg",
+            "name": "Friends",
+            "overview": "The misadventures of a group of friends as they navigate the pitfalls of work, life and love in Manhattan.",
+            "genres": [
+                "Comedy", "Drama"
+            ],
+            "releaseDate": "09/22/1994",
+            "episodes": "236",
+            "seasons": "10",
+            "trailer": "https://youtu.be/hDNNmeeJs1Q",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/l0qVZIpXtIo7km9u5Yqh0nKPOr5.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7PRddO7z7mcPi21nZTCMGShAyy1.jpg",
+            "name": "Black Mirror",
+            "overview": "A contemporary British re-working of The Twilight Zone with stories that tap into the collective unease about our modern world. Over the last ten years, technology has transformed almost every aspect of our lives before we've had time to stop and question it. In every home; on every desk; in every palm - a plasma screen; a monitor; a smartphone - a black mirror of our 21st Century existence.",
+            "genres": [
+                "Drama", "Science Fiction"
+            ],
+            "releaseDate": "12/04/2011",
+            "episodes": "22",
+            "seasons": "5",
+            "trailer": "https://youtu.be/hDNNmeeJs1Q",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/b92npz1sZwvmjUfVIrWXehrk3pc.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/clnyhPqj1SNgpAdeSS6a6fwE6Bo.jpg",
+            "name": "Grey's Anatomy",
+            "overview": "Follows the personal and professional lives of a group of doctors at Seattle’s Grey Sloan Memorial Hospital.",
+            "genres": [
+                "Drama"
+            ],
+            "releaseDate": "03/27/2005",
+            "episodes": "381",
+            "seasons": "17",
+            "trailer": "https://youtu.be/q1pcpgREQ5c",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/edmk8xjGBsYVIf4QtLY9WMaMcXZ.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wcaDIAG1QdXQLRaj4vC1EFdBT2.jpg",
+            "name": "The 100",
+            "overview": "100 years in the future, when the Earth has been abandoned due to radioactivity, the last surviving humans live on an ark orbiting the planet — but the ark won't last forever. So the repressive regime picks 100 expendable juvenile delinquents to send down to Earth to see if the planet is still habitable.",
+            "genres": [
+                "Drama", "Science Fiction", "Action", "Adventure"
+            ],
+            "releaseDate": "03/19/2014",
+            "episodes": "100",
+            "seasons": "7",
+            "trailer": "https://youtu.be/aDrsItJ_HU4",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/hTExot1sfn7dHZjGrk0Aiwpntxt.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+            "name": "Game of Thrones",
+            "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+            "genres": [
+                "Drama", "Science Fiction", "Action", "Adventure"
+            ],
+            "releaseDate": "04/17/2011",
+            "episodes": "73",
+            "seasons": "8",
+            "trailer": "https://youtu.be/KPLWWIOCOOQ",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/suopoADq0k8YZr4dQXcU6pToj6s.jpg"
+        },
+        {
+            "url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lJA2RCMfsWoskqlQhXPSLFQGXEJ.jpg",
+            "name": "The Flash",
+            "overview": "After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only 'meta-human' who was created in the wake of the accelerator explosion -- and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it won't be long before the world learns what Barry Allen has become...The Flash.",
+            "genres": [
+                "Drama", "Science Fiction", "Fantasy"
+            ],
+            "releaseDate": "10/07/2014",
+            "episodes": "146",
+            "seasons": "7",
+            "trailer": "https://youtu.be/Yj0l7iGKh8g",
+            "poster": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/z59kJfcElR9eHO9rJbWp4qWMuee.jpg"
+        }
+    ]
+  }
