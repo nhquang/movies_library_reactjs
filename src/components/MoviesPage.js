@@ -23,7 +23,7 @@ const MoviesPage = () => {
         <>
             <Header title={"All Movies"} />
             
-            <div className="listing">
+            <div className="container-grid">
                 {movies.map((item)=>(
                     <Item key={item.url} item={item} />
                 ))}

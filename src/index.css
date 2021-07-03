@@ -9,7 +9,7 @@ body {
 	background-size:cover;
 	background-attachment:fixed;
 	position: relative;
-  background-color: rgb(225, 247, 255);
+  background-color: rgb(228, 248, 246);
 }
 .header {
   margin-bottom: 40px;
@@ -69,14 +69,14 @@ body {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
-  height: 300px;
-  width: 200px;
+
+  width: 15%;
   border-radius: 5%;
   cursor: pointer;
+  
 }
 .item:hover{
-  
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.863);
+  box-shadow: -5px -5px 5px rgba(94, 88, 88, 0.863);
 }
 ::-webkit-scrollbar {
   height: 8px;
@@ -98,19 +98,21 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
-.listing{
-  margin-top: 50px;
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   width: 75%;
   margin:auto;
 }
-.listing .item{
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 687px;
-  width: 458px;
+
+.container-grid .item {
+  height: auto;
+  width: auto;
   cursor: pointer;
+  margin-bottom: 10px;
+
 }
+
 .footer{
   position: relative;
   padding-top: 25px;

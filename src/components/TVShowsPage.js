@@ -18,7 +18,7 @@ const TVShowsPage = () => {
         <>
             <Header title={"All TV Shows"} />
             
-            <div className="listing">
+            <div className="container-grid">
                 {tvshows.map((item)=>(
                     <Item key={item.url} item={item} />
                 ))}
