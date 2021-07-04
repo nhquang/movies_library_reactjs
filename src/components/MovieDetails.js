@@ -1,9 +1,19 @@
 import React from 'react'
-  
+import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-const MovieDetails = ({movie}) => {
-    
+const MovieDetails = () => {
+    const { id } = useParams();
+    const [movie, setMovie] = useState({name:"", url:"", overview:"", genres:[], releaseDate:"", length:"", trailer:"", poster:"" });
+    useEffect(() => {
+        const fetchMovie = async () =>{
+            const data = await fetch(`http://localhost:3000/movies/${id}`);
+            const parsed = await data.json();
+            console.log(parsed);
+            setMovie(prev => parsed);
+        };
+        fetchMovie();
+    }, [])
     return (
 
         <div className="details">

@@ -148,6 +148,7 @@ body {
 .details{
   width: 100%;
   margin: auto;
+  margin-top: 20px;
 }
 .details .content .content-text{
   width: 75%;
