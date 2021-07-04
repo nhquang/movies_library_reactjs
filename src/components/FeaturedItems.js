@@ -6,7 +6,7 @@ const FeaturedItems = ({title, items}) => {
         <div className="featured">
             <h2>{title}</h2>
             {items.map((item)=>(
-                <Item key={item.url} item = {item}/>
+                <Item key={item.url} item = {item} notFromHome={false}/>
             ))}
         </div>
     )

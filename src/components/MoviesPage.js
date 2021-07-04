@@ -10,8 +10,7 @@ const MoviesPage = () => {
     const [movies, setMovies] = useState([]);
     const [show, setShow] = useState(false);
     const [movie, setMovie] = useState({});
-    const [title, setTitle] = useState("");
-
+    
     useEffect(() => {
         const fetchMovies = async () =>{
             const data = await fetch("http://localhost:3000/movies");
@@ -23,7 +22,7 @@ const MoviesPage = () => {
 
     const handleClose = () => {
         setShow(prev => false);
-        const temp = {url: "", name:"", overview:"", genres:[], releaseDate:"", episodes: "", seasons: "", trailer:"", poster: ""};
+        const temp = {url: "", name:"", overview:"", genres:[], releaseDate:"", trailer:"", poster: ""};
         setMovie(prev => temp);
     }
     
@@ -43,12 +42,12 @@ const MoviesPage = () => {
                     <MovieDetails movie={movie}/>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button style={{cursor:"pointer", display: "block", marginLeft:"auto", marginRight:"auto", backgroundColor:"red", borderRadius: "5px", marginBottom:"20px", width:"100px", height:"50px"}} onClick={handleClose}>Close</Button>
+                    <Button style={{fontFamily:"Poppins", cursor:"pointer", display: "block", marginLeft:"auto", marginRight:"auto", backgroundColor:"red", borderRadius: "5px", marginBottom:"20px", width:"100px", height:"50px"}} onClick={handleClose}>Close</Button>
                 </Modal.Footer>
             </Modal>
             <div className="container-grid">
                 {movies.map((item)=>(
-                    <Item key={item.url} item={item} handleShow={handleShow}/>
+                    <Item key={item.url} item={item} handleShow={handleShow} notFromHome={true}/>
                 ))}
             </div>
         </>
