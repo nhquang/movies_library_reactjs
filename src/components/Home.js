@@ -43,6 +43,7 @@ const Home = () => {
             <Slideshow items ={slideShowItems} />
             <FeaturedItems items={movies} title={"Featured Movies"}/>
             <FeaturedItems items={tvshows} title={"Featured TV Shows"}/>
+            <img className="img" style={{ display:"block", width:"90%", margin:"40px auto"}} src="/content.PNG"/>
         </div>
     )
 }

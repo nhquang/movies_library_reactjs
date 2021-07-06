@@ -6,10 +6,7 @@ import { Modal, Button} from 'react-bootstrap'
 import MovieDetails from './MovieDetails'
 
 const MoviesPage = () => {
-    
     const [movies, setMovies] = useState([]);
-    const [show, setShow] = useState(false);
-    const [movie, setMovie] = useState({});
     
     useEffect(() => {
         const fetchMovies = async () =>{

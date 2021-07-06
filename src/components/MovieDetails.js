@@ -18,6 +18,10 @@ const MovieDetails = () => {
 
         <div className="details">
             <img src={movie.poster} className="img" style={{borderRadius:"15px", width:"85%", margin:"auto", display:"block"}}/>
+            <div style={{margin:"auto", marginTop:"20px", width:"50%", display:"flex", justifyContent:"center", alignItems:"center"}}>
+                <div className="price">Rent $5.99</div>
+                <div className="price" style={{marginLeft:"1%"}}>Buy $14.99</div>
+            </div>
             <div className="content">
                 <h1 style={{textAlign:"center"}}>{movie.name}</h1>
                 <div className="content-text">

@@ -129,8 +129,8 @@ body {
   text-align: center;
 }
 .modal {
-  width: 90%;
-  height: 90%;
+  width: 50%;
+  height: auto;
   overflow: auto;
   top: 30px;
   left: 50%;
@@ -138,7 +138,7 @@ body {
   margin: auto;
   position: fixed; 
   border-radius: 15px;
-  background-color:rgb(255, 255, 255);
+  background-color:rgb(3, 209, 192);
 }
 .modal::-webkit-scrollbar{
   display: none;
@@ -166,4 +166,60 @@ body {
   right: 0;
   width: 100%;
   height: 100%;
+}
+.price {
+  width: 30%;
+  padding: 2%;
+  border-radius: 5px;
+  background-color: lightsteelblue;
+  cursor: pointer;
+  text-align: center;
+}
+.price:hover {
+  background-color: white;
+  
+}
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  margin-left: 0%;
+  padding: 3px 7px;
+  font-size: 17px;
+  border-radius: 5px;
+  border-style: hidden;
+}
+input:focus {
+  outline: none;
+}
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.btn-block {
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+form{
+  margin-bottom:30px;
+  width:75%;
+  margin:auto
 }
