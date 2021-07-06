@@ -7,8 +7,7 @@ import TVShowDetails from './TVShowDetails'
 
 const TVShowsPage = () => {
     const [tvshows, settvshows] = useState([]);
-    const [show, setShow] = useState(false);
-    const [tvshow, setTvshow] = useState({});
+    
 
     useEffect(() => {
         const fetchTVShows = async () =>{
@@ -20,34 +19,15 @@ const TVShowsPage = () => {
         fetchTVShows();
     }, []);
 
-    const handleClose = () => {
-        setShow(prev => false);
-        const temp = {url: "", name:"", overview:"", genres:[], releaseDate:"", episodes: "", seasons: "", trailer:"", poster: ""};
-        setTvshow(prev => temp);
-    }
     
-    const handleShow = (tvshow) => {
-        setShow(prev => true);
-        setTvshow(prev => tvshow);
-    };
 
     return (
         <>
             <Header title={"All TV Shows"} />
-            <Modal className="modal" show={show}>
-                <Modal.Header>
-                    
-                </Modal.Header>
-                <Modal.Body>
-                    <TVShowDetails tvshow={tvshow}/>
-                </Modal.Body>
-                <Modal.Footer>
-                    <Button style={{fontFamily:"Poppins", cursor:"pointer", display: "block", marginLeft:"auto", marginRight:"auto", backgroundColor:"red", borderRadius: "5px", marginBottom:"20px", width:"100px", height:"50px"}} onClick={handleClose}>Close</Button>
-                </Modal.Footer>
-            </Modal>
+            
             <div className="container-grid">
                 {tvshows.map((item)=>(
-                    <Item key={item.url} item={item} notFromHome={true} handleShow={handleShow}/>
+                    <Item key={item.id} movie={false} item={item} notFromHome={true}/>
                 ))}
             </div>
         </>

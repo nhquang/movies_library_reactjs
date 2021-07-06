@@ -1,13 +1,27 @@
 import React from 'react'
-  
+import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-const MovieDetails = ({movie}) => {
-    
+const MovieDetails = () => {
+    const { id } = useParams();
+    const [movie, setMovie] = useState({name:"", url:"", overview:"", genres:[], releaseDate:"", length:"", trailer:"", poster:"" });
+    useEffect(() => {
+        const fetchMovie = async () =>{
+            const data = await fetch(`http://localhost:3000/movies/${id}`);
+            const parsed = await data.json();
+            console.log(parsed);
+            setMovie(prev => parsed);
+        };
+        fetchMovie();
+    }, [])
     return (
 
         <div className="details">
             <img src={movie.poster} className="img" style={{borderRadius:"15px", width:"85%", margin:"auto", display:"block"}}/>
+            <div style={{margin:"auto", marginTop:"20px", width:"50%", display:"flex", justifyContent:"center", alignItems:"center"}}>
+                <div className="price">Rent $5.99</div>
+                <div className="price" style={{marginLeft:"1%"}}>Buy $14.99</div>
+            </div>
             <div className="content">
                 <h1 style={{textAlign:"center"}}>{movie.name}</h1>
                 <div className="content-text">
