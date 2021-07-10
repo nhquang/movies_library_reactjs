@@ -53,7 +53,7 @@ function App() {
           <LoginBox />
         </Modal.Body>
         <Modal.Footer>
-          <Button style={{fontFamily:"Poppins", cursor:"pointer", display: "block", marginLeft:"auto", marginRight:"auto", backgroundColor:"red", borderRadius: "5px", marginBottom:"30px", marginTop:"10px", width:"37.5%", height:"auto"}} onClick={handleCloseLogin}>Close</Button>
+          <Button style={{fontFamily:"Poppins", cursor:"pointer", display: "block", marginLeft:"auto", marginRight:"auto", backgroundColor:"red", borderRadius: "5px", marginTop:"10px", width:"37.5%", height:"auto"}} onClick={handleCloseLogin}>Close</Button>
         </Modal.Footer>            
       
       </Modal>
