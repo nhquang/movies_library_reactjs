@@ -8,8 +8,9 @@ const MovieDetails = () => {
     useEffect(() => {
         const fetchMovie = async () =>{
             //const data = await fetch(`http://localhost:3000/movies/${id}`);
-            const data = await fetch(`http://localhost:4000/api/movies/${id}`);
-            const parsed = await data.json();
+            //const data = await fetch(`http://localhost:4000/api/movies/${id}`);
+            const data = await fetch(`https://movies-night-nhquang.herokuapp.com/api/movies/${id}`);
+			const parsed = await data.json();
             console.log(parsed);
             setMovie(prev => parsed);
         };

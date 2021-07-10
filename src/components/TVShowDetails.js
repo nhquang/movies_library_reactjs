@@ -8,8 +8,9 @@ const TVShowDetails = () => {
     useEffect(() => {
         const fetchTVShow = async () =>{
             //const data = await fetch(`http://localhost:3000/tvshows/${id}`);
-            const data = await fetch(`http://localhost:4000/api/tvShows/${id}`);
-            const parsed = await data.json();
+            //const data = await fetch(`http://localhost:4000/api/tvShows/${id}`);
+            const data = await fetch(`https://movies-night-nhquang.herokuapp.com/api/tvshows/${id}`);
+			const parsed = await data.json();
             console.log(parsed);
             setTVshow(prev => parsed);
         };
