@@ -41,8 +41,8 @@ const Home = () => {
         <div>
             <Header title={"Movies Night"}/>
             <Slideshow items ={slideShowItems} />
-            <FeaturedItems items={movies} title={"Featured Movies"}/>
-            <FeaturedItems items={tvshows} title={"Featured TV Shows"}/>
+            <FeaturedItems items={movies} title={"Featured Movies"} movie={true}/>
+            <FeaturedItems items={tvshows} title={"Featured TV Shows"} movie={false}/>
             <img className="img" style={{ display:"block", width:"100%", borderRadius: "0px", margin:"40px auto"}} src="/content.PNG"/>
         </div>
     )
