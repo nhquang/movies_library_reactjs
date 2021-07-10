@@ -7,7 +7,8 @@ const MovieDetails = () => {
     const [movie, setMovie] = useState({name:"", url:"", overview:"", genres:[], releaseDate:"", length:"", trailer:"", poster:"" });
     useEffect(() => {
         const fetchMovie = async () =>{
-            const data = await fetch(`http://localhost:3000/movies/${id}`);
+            //const data = await fetch(`http://localhost:3000/movies/${id}`);
+            const data = await fetch(`http://localhost:4000/api/movies/${id}`);
             const parsed = await data.json();
             console.log(parsed);
             setMovie(prev => parsed);

@@ -9,7 +9,7 @@ const Home = () => {
     const [tvshows, settvshows] = useState([]);
     useEffect(() => {
         const fetchMovies = async () =>{
-            const data = await fetch("http://localhost:3001/movies");
+            const data = await fetch("http://localhost:4000/api/movies");
             const parsed = await data.json();
             const temp = [];
             for(let i = 0; i < 8; i++)
@@ -17,7 +17,7 @@ const Home = () => {
             setmovies(prev => temp);
         }
         const fetchTVShows = async() =>{
-            const data = await fetch("http://localhost:3001/tvShows");
+            const data = await fetch("http://localhost:4000/api/tvShows");
             const parsed = await data.json();
             const temp = [];
             for(let i = 0; i < 8; i++)
@@ -25,7 +25,7 @@ const Home = () => {
             settvshows(prev => temp);
         }
         const fetchSlideShowItems = async() =>{
-            const data = await fetch("http://localhost:3001/banners");
+            const data = await fetch("http://localhost:4000/api/banners");
             const parsed = await data.json();
             setslideShowItems(prev => parsed);
         }

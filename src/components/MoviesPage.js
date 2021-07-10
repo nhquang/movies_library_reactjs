@@ -10,7 +10,8 @@ const MoviesPage = () => {
     
     useEffect(() => {
         const fetchMovies = async () =>{
-            const data = await fetch("http://localhost:3000/movies");
+            //const data = await fetch("http://localhost:3000/movies");
+            const data = await fetch("http://localhost:4000/api/movies");
             const parsed = await data.json();
             setMovies(prev => parsed);
         }

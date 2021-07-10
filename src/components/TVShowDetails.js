@@ -7,7 +7,8 @@ const TVShowDetails = () => {
     const [tvshow, setTVshow] = useState({name:"", url:"", overview:"", genres:[], releaseDate:"", episodes:"", seasons:"", trailer:"", poster:"" })
     useEffect(() => {
         const fetchTVShow = async () =>{
-            const data = await fetch(`http://localhost:3000/tvshows/${id}`);
+            //const data = await fetch(`http://localhost:3000/tvshows/${id}`);
+            const data = await fetch(`http://localhost:4000/api/tvShows/${id}`);
             const parsed = await data.json();
             console.log(parsed);
             setTVshow(prev => parsed);
