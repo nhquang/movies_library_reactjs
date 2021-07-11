@@ -22,19 +22,15 @@ function App() {
             //const data = await fetch("http://localhost:4000/api/movies");
             const data = await fetch("https://movies-night-nhquang.herokuapp.com/api/movies");
 			      const parsed = await data.json();
-            const temp = [];
-            for(let i = 0; i < 8; i++)
-                temp.push(parsed[i]);
-            setmovies(prev => temp);
+            
+            setmovies(prev => parsed);
       }
       const fetchTVShows = async() =>{
             //const data = await fetch("http://localhost:4000/api/tvShows");
             const data = await fetch("https://movies-night-nhquang.herokuapp.com/api/tvShows");
 			      const parsed = await data.json();
-            const temp = [];
-            for(let i = 0; i < 8; i++)
-                temp.push(parsed[i]);
-            settvshows(prev => temp);
+            
+            settvshows(prev => parsed);
       }
       const fetchSlideShowItems = async() =>{
             //const data = await fetch("http://localhost:4000/api/banners");
