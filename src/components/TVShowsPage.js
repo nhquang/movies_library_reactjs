@@ -5,21 +5,21 @@ import Header from './Header'
 import { Modal, Button } from 'react-bootstrap'
 import TVShowDetails from './TVShowDetails'
 
-const TVShowsPage = () => {
-    const [tvshows, settvshows] = useState([]);
+const TVShowsPage = ({tvshows}) => {
+    // const [tvshows, settvshows] = useState([]);
     
 
-    useEffect(() => {
-        const fetchTVShows = async () =>{
-            //const data = await fetch("http://localhost:3000/tvShows");
-            //const data = await fetch("http://localhost:4000/api/tvShows");
-            const data = await fetch("https://movies-night-nhquang.herokuapp.com/api/tvShows");
-			const parsed = await data.json();
-            settvshows(prev => parsed);
+    // useEffect(() => {
+    //     const fetchTVShows = async () =>{
+    //         //const data = await fetch("http://localhost:3000/tvShows");
+    //         //const data = await fetch("http://localhost:4000/api/tvShows");
+    //         const data = await fetch("https://movies-night-nhquang.herokuapp.com/api/tvShows");
+	// 		const parsed = await data.json();
+    //         settvshows(prev => parsed);
             
-        }
-        fetchTVShows();
-    }, []);
+    //     }
+    //     fetchTVShows();
+    // }, []);
 
     
 

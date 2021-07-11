@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Home from "./components/Home";
 import MoviesPage from "./components/MoviesPage";
 import TVShowsPage from "./components/TVShowsPage";
@@ -14,6 +14,39 @@ import LoginBox from "./components/LoginBox";
 function App() {
   const [showRegister, setShowRegister] = useState(false);
   const [showLogin, setShowLogin] = useState(false);
+  const [slideShowItems, setslideShowItems] = useState([]);
+  const [movies, setmovies] = useState([]);
+  const [tvshows, settvshows] = useState([]);
+  useEffect(() => {
+      const fetchMovies = async () =>{
+            //const data = await fetch("http://localhost:4000/api/movies");
+            const data = await fetch("https://movies-night-nhquang.herokuapp.com/api/movies");
+			      const parsed = await data.json();
+            const temp = [];
+            for(let i = 0; i < 8; i++)
+                temp.push(parsed[i]);
+            setmovies(prev => temp);
+      }
+      const fetchTVShows = async() =>{
+            //const data = await fetch("http://localhost:4000/api/tvShows");
+            const data = await fetch("https://movies-night-nhquang.herokuapp.com/api/tvShows");
+			      const parsed = await data.json();
+            const temp = [];
+            for(let i = 0; i < 8; i++)
+                temp.push(parsed[i]);
+            settvshows(prev => temp);
+      }
+      const fetchSlideShowItems = async() =>{
+            //const data = await fetch("http://localhost:4000/api/banners");
+            const data = await fetch("https://movies-night-nhquang.herokuapp.com/api/banners");
+			      const parsed = await data.json();
+            setslideShowItems(prev => parsed);
+      }
+      fetchMovies();
+      fetchTVShows();
+      fetchSlideShowItems();
+    }, []);
+
   const handleCloseRegister = () => {
     setShowRegister(prev => false);  
   }
@@ -58,10 +91,17 @@ function App() {
       
       </Modal>
       <Switch>
-        <Route path='/' exact component={Home}/>
-        <Route path='/movies' exact component={MoviesPage}/>
+        {/* <Route path='/' exact component={<Home movies={movies} tvshows ={tvshows} slideShowItems={slideShowItems}/>}/> */}
+        <Route exact path='/'>
+          <Home movies={movies} tvshows ={tvshows} slideShowItems={slideShowItems}/>
+        </Route>
+        <Route path='/movies' exact>
+          <MoviesPage movies={movies}/>
+        </Route>
         <Route path='/movies/:id' component={MovieDetails}/>
-        <Route path='/tvshows' exact component={TVShowsPage}/>
+        <Route path='/tvshows' exact>
+          <TVShowsPage tvshows = {tvshows}/>
+        </Route>
         <Route path='/tvshows/:id' component={TVShowDetails}/>
       </Switch>
       </div>
