@@ -8,7 +8,7 @@ const Slideshow = ({items}) => {
         <div className="slide-container" style={{width: "95%", margin: "auto"}}>
             <Slide>
                 {items.map((item) => (
-                    <SlideshowItem key ={item.url} url={item.url}/>
+                    <SlideshowItem key ={item} url={item}/>
                 ))}
             </Slide>
         </div>

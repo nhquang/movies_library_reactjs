@@ -114,7 +114,10 @@ body {
   margin-bottom: 30px;
   font-weight: bold;
 }
-
+.dashboard{
+  font-weight: bold;
+  font-size: 20px;
+}
 .modal {
   width: 570px;
   overflow: auto;

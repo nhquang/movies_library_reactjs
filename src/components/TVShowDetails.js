@@ -9,7 +9,8 @@ const TVShowDetails = () => {
         const fetchTVShow = async () =>{
             //const data = await fetch(`http://localhost:3000/tvshows/${id}`);
             //const data = await fetch(`http://localhost:4000/api/tvShows/${id}`);
-            const data = await fetch(`https://movies-night-nhquang.herokuapp.com/api/tvshows/${id}`);
+            //const data = await fetch(`https://movies-night-nhquang.herokuapp.com/api/tvshows/${id}`);
+            const data = await fetch(`https://movies-night-back.herokuapp.com/tvshows/${id}`);
 			const parsed = await data.json();
             console.log(parsed);
             setTVshow(prev => parsed);

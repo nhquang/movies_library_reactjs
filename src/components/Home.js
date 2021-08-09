@@ -3,7 +3,7 @@ import Slideshow from "./Slideshow"
 import {useState, useEffect} from "react";
 import FeaturedItems from "./FeaturedItems";
 
-const Home = ({movies, tvshows, slideShowItems}) => {
+const Home = ({slideShowItems, featuredMovies, featuredTVShows}) => {
     // const [slideShowItems, setslideShowItems] = useState([]);
     // const [movies, setmovies] = useState([]);
     // const [tvshows, settvshows] = useState([]);
@@ -44,8 +44,8 @@ const Home = ({movies, tvshows, slideShowItems}) => {
         <div>
             <Header title={"Movies Night"}/>
             <Slideshow items ={slideShowItems} />
-            <FeaturedItems items={movies} title={"Featured Movies"} movie={true}/>
-            <FeaturedItems items={tvshows} title={"Featured TV Shows"} movie={false}/>
+            <FeaturedItems items={featuredMovies} title={"Featured Movies"} movie={true}/>
+            <FeaturedItems items={featuredTVShows} title={"Featured TV Shows"} movie={false}/>
             <img className="img" style={{ display:"block", width:"100%", borderRadius: "0px", margin:"40px auto"}} src="/content.PNG"/>
         </div>
     )
