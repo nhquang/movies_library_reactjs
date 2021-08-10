@@ -2,8 +2,8 @@ import React from 'react'
   
 import { Link } from "react-router-dom";
 
-function Item({item, movie, notFromHome}) {
-    const linkUrl = `/${movie ? "movies" : "tvshows"}/${item.id}/`;
+function Item({item, notFromHome}) {
+    const linkUrl = `/${item.movie ? "movies" : "tvshows"}/${item.id}/`;
     return (
         // <div className = "item" onClick={clicked}>
 		// 	<img className="img" src={item.url} alt={item.name} /> <br/>

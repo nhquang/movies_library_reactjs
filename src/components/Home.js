@@ -37,15 +37,43 @@ const Home = ({slideShowItems, featuredMovies, featuredTVShows}) => {
     //     fetchSlideShowItems();
     // }, [])
 
+    const [showSearchResults, setShowSearchResults] = useState(false);
+    const [searchResults, setSearchResults] = useState([]);
+    const [text, setText] = useState("");
 
+    const submitting = async (e) =>{
+        e.preventDefault();
+        if(text.trim() !== ""){
+            const res = await fetch(`https://movies-night-back.herokuapp.com/search?name=${text}`);
+            const parsed = await res.json();
+            if(res.status != 200 || parsed.length === 0)
+                alert("Not Found");
+            else {
+                setShowSearchResults(true);
+                setSearchResults(prev => parsed);
+            }
+        }
+        else{
+            setShowSearchResults(false);
+            setSearchResults(prev => []);
+        }
+    }
+    
 
 
     return (
         <div>
             <Header title={"Movies Night"}/>
             <Slideshow items ={slideShowItems} />
-            <FeaturedItems items={featuredMovies} title={"Featured Movies"} movie={true}/>
-            <FeaturedItems items={featuredTVShows} title={"Featured TV Shows"} movie={false}/>
+            <form className= "form" style={{width:"40%"}} onSubmit={submitting}>
+                <div className='form-control'>
+                    <input type="text" placeholder="Enter movie/tvshow title" value={text} onChange={(e) => setText(e.target.value)}/>
+                </div>
+            <input type="submit" value ="Search" className="btn btn-block"/>
+            </form>
+            {showSearchResults && <FeaturedItems items={searchResults} title={"Search Results:"} />}
+            <FeaturedItems items={featuredMovies} title={"Featured Movies"} />
+            <FeaturedItems items={featuredTVShows} title={"Featured TV Shows"}/>
             <img className="img" style={{ display:"block", width:"100%", borderRadius: "0px", margin:"40px auto"}} src="/content.PNG"/>
         </div>
     )

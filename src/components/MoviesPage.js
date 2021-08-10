@@ -27,7 +27,7 @@ const MoviesPage = ({movies}) => {
             
             <div className="container-grid">
                 {movies.map((item)=>(
-                    <Item key={item.id} movie={true} item={item} notFromHome={true}/>
+                    <Item key={item.id} item={item} notFromHome={true}/>
                 ))}
             </div>
         </>

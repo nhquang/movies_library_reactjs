@@ -29,7 +29,7 @@ const TVShowsPage = ({tvshows}) => {
             
             <div className="container-grid">
                 {tvshows.map((item)=>(
-                    <Item key={item.id} movie={false} item={item} notFromHome={true}/>
+                    <Item key={item.id} item={item} notFromHome={true}/>
                 ))}
             </div>
         </>
