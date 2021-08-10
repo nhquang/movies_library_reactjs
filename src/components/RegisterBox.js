@@ -45,7 +45,7 @@ const RegisterBox = () => {
                 <input type="text" id="fname" placeholder="Enter your first name" value={fname} onChange={(e) => setFName(e.target.value)}/>
             </div>
             <div className='form-control'>
-                <label htmlFor="lname">Username:</label>
+                <label htmlFor="lname">Last name:</label>
                 <input type="text" id="lname" placeholder="Enter your last name" value={lname} onChange={(e) => setLName(e.target.value)}/>
             </div>
             <div className='form-control'>
