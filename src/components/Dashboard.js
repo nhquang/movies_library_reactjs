@@ -28,10 +28,12 @@ function Dashboard() {
     }, [])
 
     return (
-        <div className="dashboard" style={{width:"75%", margin:"auto", marginTop:"100px", display:"flex",justifyContent:"center"}}>
-            
-            <table style={{width:"80%", textAlign:"center"}}>
-                <caption style={{fontSize:"40px"}}>Dashboard</caption>
+        <div className="dashboard" style={{width:"100%", height:"65.2vh"}}>
+            <div style={{marginTop:"100px", width:"50%", margin:"auto", textAlign:"center"}}>
+                <h1>Dashboard</h1>
+            </div>
+            <table style={{marginTop:"150px",width:"55%", textAlign:"left", margin:"auto"}}>
+                
                 <tr>
                     <td>First name:</td>
                     <td>{fname}</td>
