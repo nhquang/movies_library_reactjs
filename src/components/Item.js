@@ -13,7 +13,7 @@ function Item({item, notFromHome}) {
         <div className = "item" >
             <Link to={linkUrl} style={{textDecoration:"none", color:'black'}}>
 			    <img className="img" src={item.url} alt={item.name} /> <br/>
-                {notFromHome && item.name}
+                {/* {notFromHome && <div style={{width:"100%"}}>{item.name}</div>} */}
             </Link>
 		</div>
     )
