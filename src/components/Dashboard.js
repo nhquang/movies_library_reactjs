@@ -29,10 +29,10 @@ function Dashboard() {
 
     return (
         <div className="dashboard" style={{width:"100%", height:"65.2vh"}}>
-            <div style={{marginTop:"100px", width:"50%", margin:"auto", textAlign:"center"}}>
+            <div style={{marginTop:"100px", width:"12%", marginLeft:"15%", textAlign:"center"}}>
                 <h1>Dashboard</h1>
             </div>
-            <table style={{marginTop:"150px",width:"55%", textAlign:"left", margin:"auto"}}>
+            <table style={{marginTop:"70px",minWidth:"40%", textAlign:"left", marginLeft:"15%"}}>
                 
                 <tr>
                     <td>First name:</td>

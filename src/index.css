@@ -109,8 +109,9 @@ body {
 
 .container-grid .item {
   height: auto;
-  width: auto;
+  width: 97%;
   cursor: pointer;
+  overflow: auto;
   margin-bottom: 30px;
   font-weight: bold;
 }
